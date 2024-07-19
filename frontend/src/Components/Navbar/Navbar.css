@@ -48,7 +48,7 @@
     width: 80%;
     height: 3px;
     border-radius: 10px;
-    background: #FF4141;
+    background: #f69292;
 
 }
 
@@ -83,7 +83,7 @@
 
 }
 
-.nav-login-cart button {
+.nav-login-cart button:active {
     background: #f3f3f3;
 }
 
