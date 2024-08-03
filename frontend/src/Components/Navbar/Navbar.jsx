@@ -18,7 +18,9 @@ const Navbar = () => {
             setMenu("shop");
           }}
         >
-          <Link to="/">SHOP</Link>
+          <Link style={{ textDecoration: "none" }} to="/">
+            SHOP
+          </Link>
           {menu === "shop" ? <hr /> : <></>}
         </li>
         <li
@@ -26,7 +28,9 @@ const Navbar = () => {
             setMenu("makeup");
           }}
         >
-          <Link to="/makeup">MAKEUP </Link>
+          <Link style={{ textDecoration: "none" }} to="/makeup">
+            MAKEUP{" "}
+          </Link>
           {menu === "makeup" ? <hr /> : <></>}
         </li>
         <li
@@ -34,7 +38,9 @@ const Navbar = () => {
             setMenu("skincare");
           }}
         >
-          <Link to="/skincare">SKINCARE</Link>
+          <Link style={{ textDecoration: "none" }} to="/skincare">
+            SKINCARE
+          </Link>
           {menu === "skincare" ? <hr /> : <></>}
         </li>
         <li
@@ -42,7 +48,10 @@ const Navbar = () => {
             setMenu("bath&body");
           }}
         >
-          <Link to="/bath&body"> BATH&BODY</Link>
+          <Link style={{ textDecoration: "none" }} to="/bath&body">
+            {" "}
+            BATH&BODY
+          </Link>
           {menu === "bath&body" ? <hr /> : <></>}
         </li>
       </ul>
