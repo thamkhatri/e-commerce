@@ -27,12 +27,12 @@
 .popular-item {
     margin-top: 50px;
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .popular-item img {
     width: 17rem;
-    height: 20rem;
+    height: 22rem;
 
 
 }

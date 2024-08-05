@@ -24,16 +24,14 @@
 }
 
 .collections {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
+    display: flex;
     gap: 30px;
 }
 
 
 .new-collections img {
-    width: 100%;
+    width: 17rem;
+    height: 20rem;
 
-    height: auto;
-    overflow: hidden;
 }

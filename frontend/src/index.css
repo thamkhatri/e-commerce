@@ -1,9 +1,10 @@
 * {
-    margin: 0;
+    margin: auto;
+    padding: auto;
 }
 
 body {
-    margin: 0;
+    margin: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* font-family: 'poppins'; */

@@ -93,10 +93,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -35px;
+    margin-top: -10px;
     margin-left: -55px;
     border-radius: 11px;
     font-size: 12px;
     background: red;
     color: white;
+
 }
