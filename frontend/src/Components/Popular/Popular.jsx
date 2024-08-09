@@ -8,7 +8,7 @@ const Popular = () => {
     <div className="popular">
       <h1>BEST SELLER</h1>
       <hr />
-      <div class="scroll-arrow left-arrow">&#9664;</div>
+      <div className="scroll-arrow left-arrow">&#9664;</div>
       <div className="popular-item">
         {data_product.map((item, i) => {
           return (
@@ -23,7 +23,7 @@ const Popular = () => {
           );
         })}
       </div>
-      <div class="scroll-arrow right-arrow">&#9654;</div>
+      <div className="scroll-arrow right-arrow">&#9654;</div>
     </div>
   );
 };
