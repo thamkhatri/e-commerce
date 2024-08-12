@@ -1,8 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import instagram_icon from "../Assets/instagram.svg";
-import pintester_icon from "../Assets/pintester.svg";
-import whatsapp_icon from "../Assets/whatsapp.svg";
+import instagram_icon from "../Assets/instagram.png";
+import pinterest_icon from "../Assets/pinterest.png";
+import whatsapp_icon from "../Assets/whatsapp.png";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -23,7 +24,7 @@ const Footer = () => {
           <img src={instagram_icon} alt="" />
         </div>
         <div className="footer-icons-container">
-          <img src={pintester_icon} alt="" />
+          <img src={pinterest_icon} alt="" />
         </div>
         <div className="footer-icons-container">
           <img src={whatsapp_icon} alt="" />
