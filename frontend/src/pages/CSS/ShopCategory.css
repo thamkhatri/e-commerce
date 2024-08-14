@@ -9,11 +9,11 @@
 
 .shopCategory-indexSort {
     display: flex;
-    margin: 0px 170px;
     justify-content: space-between;
-    align-items: center;
-
+    gap: 450px;
     padding-top: 10px;
+
+
 }
 
 .shopCategory-sort {
@@ -30,7 +30,8 @@
 }
 
 .shopCategory-indexSort p span {
-    font-weight: 600;
+    font-weight: 1000;
+    font-size: 25px;
 
 }
 
