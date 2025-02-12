@@ -60,6 +60,7 @@ const Navbar = () => {
         <Link to="/cart">
           <img src={cart_icon} alt="" />
         </Link>
+        <div className="nav-cart-count">0</div>
       </div>
     </div>
   );
