@@ -21,7 +21,14 @@
 }
 
 .relatedproducts-item {
+    height: 6rem;
     margin-top: 50px;
     display: flex;
     gap: 30px;
 }
+
+/* 
+.relatedproducts-item .item img {
+    height: 50px;
+    width: 50px;
+} */

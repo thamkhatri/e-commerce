@@ -1,4 +1,4 @@
-import p1_img from "./rom1.png.webp";
+import p1_img from "./dat4.jpg.webp";
 import p2_img from "./rom2.jpg.webp";
 import p3_img from "./rom3.jpg.webp";
 import p4_img from "./rom5.jpg.webp";
