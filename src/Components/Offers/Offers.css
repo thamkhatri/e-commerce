@@ -5,7 +5,7 @@
     margin: auto;
     padding: 0px 100px;
     background: linear-gradient(180deg, #f2b4ba, #e1ffea22 60%);
-    display: flex;
+
 }
 
 .offers-right img {
@@ -22,7 +22,7 @@
 .offers-left h1 {
     color: #171717;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -51,6 +51,6 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 50px;
+    padding-top: 50px;
 
 }
