@@ -4,7 +4,9 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    background-color: rgba(243, 212, 212, 0.753);
+    background-color: #FDECEC;
+    margin: 10px 10px;
+    border-radius: 8px;
 
 }
 
@@ -23,7 +25,7 @@
     display: flex;
     list-style: none;
     gap: 50px;
-    color: #252525;
+    color: #4C4C4B;
     font-size: 20px;
 
 }
@@ -63,7 +65,7 @@
     border: none;
     border-radius: 10px;
     height: 3px;
-    background: #7b7b7b;
+    background: #4C4C4B;
 }
 
 @media(max-width:800px) {
